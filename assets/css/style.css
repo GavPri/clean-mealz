@@ -1,3 +1,86 @@
-body{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    border: none;
 }
+h1, h2{
+    font-family: Oswald , sans-serif;
+    font-size: 210%;
+}
+#banner{
+    background-color: #eae7b1;
+    overflow: hidden;
+    height: 150px;
+}
+#logo{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    color: #3c6255;
+    font-weight: 700;
+    justify-content: center;
+    font-size: 250%;
+}
+/* navigation styling  */
+#menu{
+    float: right;
+    width:75%;
+    text-align: center;
+    line-height: 150px;
+    
+}
+#menu li{
+    display: inline;
+    padding-right: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+/* styling links */
+#menu li a, #logo a{
+    text-decoration: none;
+    font-family: oswald,sans-serif;
+    text-transform: uppercase;
+    color: #3c6255;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+#menu li a:hover {
+    cursor:pointer;
+    border-bottom: 2px solid #3c6255;
+}
+.fa fa-house-chimney{
+    
+}
+/* button style */
+
+#subscribe{
+    float: right;
+    width:33%;
+    text-align: center;
+    justify-content: center;
+}
+#newsletter{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #eae7b1;
+    background-color: #3c6255;
+    transition: transform 0.1s ease-out;
+    box-shadow: 0 5px 0 #2c443c;
+
+}
+#newsletter:active{
+    box-shadow: none;
+    transform:translateY(5px);
+}
+
