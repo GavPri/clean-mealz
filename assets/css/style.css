@@ -37,23 +37,47 @@ h1, h2{
 }
 #menu li{
     display: inline;
-    padding-right: 25px;
-    margin-right: 25px;
+    margin-right: 50px;
     text-align: center;
+    width:15%;
+    
 }
 /* styling links */
 #menu li a, #logo a{
     text-decoration: none;
     font-family: oswald,sans-serif;
     text-transform: uppercase;
-    color: #3c6255;
+    color: #eae7b1;
     font-weight: 600;
     letter-spacing: 4px;
+    border:10px;
 }
-#menu li a:hover {
+#menu li a{
+    padding:20px 20px;
+}
+#logo a{
+    color: #3c6255;
+}
+.nav-button{
+    border-right: 1px solid #2c443c;
+    padding: 5px 0 6px 5px;
+    box-shadow:  0 0 6px  0 #2c443c;
+    border-radius: 5px;
+    background-color: #3c6255;
+    transition: transform 0.5s ease-out;
+}
+.nav-button:active{
+    box-shadow: none;
+    transform:translateY(-5px);
+}
+.nav-button:hover{
+    box-shadow: none;
+    transform:translateY(-5px);
+}
+#menu li a:hover{
     cursor:pointer;
-    border-bottom: 2px solid #3c6255;
 }
+
 
 /* button style */
 
@@ -72,12 +96,12 @@ h1, h2{
     border-radius: 5px;
     text-transform: uppercase;
     font-family: oswald, sans-serif;
+    font-weight: 600;
     letter-spacing: 4px;
     color: #eae7b1;
     background-color: #3c6255;
-    transition: transform 0.1s ease-out;
     box-shadow: 0 5px 0 #2c443c;
-
+    transition: transform 0.1s ease-out;
 }
 #newsletter:active{
     box-shadow: none;
@@ -93,6 +117,7 @@ h1, h2{
     animation-fill-mode: forwards;
 }
 #hero-outer{
+    position: relative;
     height: 450px;
     width:100%;
     overflow: hidden;
@@ -105,4 +130,37 @@ h1, h2{
     to{
         transform: scale(1.05);
     }
+}
+
+/* cover text */
+#cover-text, #cover-text h2{
+   color: rgba(60, 98, 85, 0.8);
+   text-align: center;
+   line-height: 50px;
+   letter-spacing: 4px;
+}
+#cover-text h2{
+    padding-bottom: 20px;
+}
+#cover-text{
+    font-size: 130%;
+    font-family: oswald,sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    width: 1000px;
+    height: 50px;
+    padding-top:25px; 
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    background-color: rgba(234, 231, 177, 0.9);
+
+    bottom: 200px;
+    top:200px;
+    /* right and left values that best align cover text with background images */
+    right:548px;
+    left:453px;
+    position: absolute;
+
+    border-radius: 10px;
 }
