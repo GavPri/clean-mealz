@@ -188,7 +188,7 @@ h1, h2{
     float: left;
     width:33%;
     height:450px;
-    background-color:wheat;
+    background-color:white;
     
 }
 .fast-or-freeze{
@@ -210,21 +210,21 @@ h1, h2{
 .reason-heading{
     width:100%;
     height:15%;
-    line-height: 25px;
     font-weight: 600;
     font-family: oswald, sans-serif;
     color: #2c443c;
     text-align: center;
     padding-top: 25px;
-    border-bottom: 2px solid #2c443c;
-
+    text-decoration: underline;
 }
+
 /* text containers under 'why follow us' */
 .reason-text-container {
     width: 100%;
     height:30%;
     margin: 0 auto;
-    background-color: red;
+    background-color: white;
+    padding-top: 10px;
 }
 .reason-photo-container{
     width: 150px;
@@ -236,11 +236,11 @@ h1, h2{
 }
 .reason-text{
     height: 100px;
-    width:66%;
+    width:100%;
     margin: 0 auto;
-    font-family: source sans serif, sans-serif;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-align: left;
+    font-family: source-sans-serif, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
     padding-top: 5px ;
 }
