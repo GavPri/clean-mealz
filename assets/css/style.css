@@ -191,7 +191,7 @@ h1, h2{
     background-color:white;
     
 }
-.fast-or-freeze{
+.encouragement{
     display:inline-block;
     float: right;
     width:33%;
@@ -235,12 +235,16 @@ h1, h2{
     border-radius: 50%;
 }
 .reason-text{
-    height: 100px;
-    width:100%;
+    height: 25px;
+    width:90%;
     margin: 0 auto;
+    color:#3c6255;
     font-family: source-sans-serif, sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
-    text-align: center;
-    padding-top: 5px ;
+    text-align:center;
+    padding-bottom: 10px ;
+    padding-left: 15px;
+    line-height: 1em;
+    border-left: 1px solid #a6bb8d;
 }
