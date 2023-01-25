@@ -253,20 +253,20 @@ h1, h2{
 .reason-photo-ing{
     width:100%;
     height:100%;
-    background: url('../images/cm-ing.jpg') no-repeat center center;
+    background: url('../images/cm-reason-photo-ing.jpg') no-repeat center center;
     border-radius: 60%;
 }
 
 .reason-photo-goodness{
     width:100%;
     height:100%;
-    background: url('../images/cm-ing.jpg') no-repeat center center;
+    background: url('../images/cm-reason-photo-goodness.png') no-repeat center center;
     border-radius: 60%;
 }
 
 .reason-photo-encouragement{
     width:100%;
     height:100%;
-    background: url('../images/cm-ing.jpg') no-repeat center center;
+    background: url('../images/cm-reason-photos-encouragement.png') no-repeat center center;
     border-radius: 60%;
 }
