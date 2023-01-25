@@ -13,6 +13,7 @@ h1, h2{
     background-color: #eae7b1;
     overflow: hidden;
     height: 150px;
+    border-bottom: 2px solid #2c443c;
 }
 #logo{
     float: left;
@@ -173,11 +174,13 @@ h1, h2{
     height:75px;
     text-align: center;
     text-transform: capitalize;
-    background-color: #3c6255;
-    color: #eae7b1;
+    background-color: #eeecce;
+    color: #2c443c;
     line-height: 75px;
     letter-spacing: 4px;
     padding:15px 0;
+    border-bottom: 2px solid #2c443c;
+    border-top: 2px solid #2c443c;
 }
 
 .reason-ing{
@@ -185,7 +188,7 @@ h1, h2{
     float: left;
     width:33%;
     height:450px;
-    background-color: #eeecce;
+    background-color:wheat;
     
 }
 .fast-or-freeze{
@@ -193,7 +196,7 @@ h1, h2{
     float: right;
     width:33%;
     height:450px;
-    background-color: #eae7b1;
+    background-color: white;
    
 }
 .goodness{
@@ -201,7 +204,7 @@ h1, h2{
     margin: 0 auto;
     width:33%;
     height:450px;
-    background-color: aliceblue;
+    background-color: white;
     
 }
 .reason-heading{
