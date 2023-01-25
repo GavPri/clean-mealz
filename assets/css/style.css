@@ -196,7 +196,7 @@ h1, h2{
     background-color: #eae7b1;
    
 }
-.goodness-in{
+.goodness{
     display:inline-block;
     margin: 0 auto;
     width:33%;
@@ -204,14 +204,40 @@ h1, h2{
     background-color: aliceblue;
     
 }
-.reasons-heading{
+.reason-heading{
     width:100%;
-    height:25%;
-    line-height: 50px;
+    height:15%;
+    line-height: 25px;
     font-weight: 600;
     font-family: oswald, sans-serif;
     color: #2c443c;
     text-align: center;
     padding-top: 25px;
+    border-bottom: 2px solid #2c443c;
 
+}
+/* text containers under 'why follow us' */
+.reason-text-container {
+    width: 100%;
+    height:30%;
+    margin: 0 auto;
+    background-color: red;
+}
+.reason-photo-container{
+    width: 150px;
+    height:150px;
+    background-color: transparent;
+    margin: 0 auto;
+    border:3px solid #2c443c;
+    border-radius: 50%;
+}
+.reason-text{
+    height: 100px;
+    width:66%;
+    margin: 0 auto;
+    font-family: source sans serif, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-top: 5px ;
 }
