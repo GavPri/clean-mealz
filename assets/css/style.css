@@ -442,33 +442,41 @@ h1, h2{
     letter-spacing: 4px;
  }
  /*  Fan Reviews  */
+
+
 .fans{
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height:45vh;
-    background-color:rebeccapurple;
+    position:relative;
+    float:left;
+    width: 33%;
+    height:50vh;
+    background-color: rebeccapurple;
 }
 .fans-2{
-    float: right;
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height:45vh;
-    background-color:rebeccapurple;
+    position:relative;
+    float:right;
+    width: 33%;
+    height:50vh;
+    background-color: rebeccapurple;
+}
+.fans-3{
+    position:relative;
+    margin:0 auto;
+    width: 33%;
+    height:50vh;
+    background-color: rebeccapurple;
 }
 .fan-quote{
     width: 60%;
     height:40%;
     background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 .fan-picture-container{
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     background-color: green;
     position: absolute;
     bottom: 3%;
