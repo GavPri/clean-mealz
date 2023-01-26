@@ -274,11 +274,11 @@ h1, h2{
 #meals{
     width: 100%;
     height:750px;
-    background-color: #eae7b1;
+    background-color: whitesmoke;
     /* padding-bottom: 25px; */
 }
 #meals-header{
-    
+    margin-bottom: 2.5%;
     width: 100%;
     height:75px;        
     text-align: center;
@@ -295,7 +295,7 @@ h1, h2{
     display: inline-block;
     width: 33%;
     height:5%;
-    background-color: #eae7b1;
+    background-color: whitesmoke;
 }
 .breakfast{
     height:100%;
@@ -419,4 +419,23 @@ h1, h2{
  .meals-button:active {
     box-shadow: none;
     transform:translateY(5px);
+ }
+
+ /* Review Section  */
+ #reviews{
+    width: 100%;
+    height:100vh;
+ }
+ #reveiws-header{
+    width: 100%;
+    height: 10vh;
+    background-color: #273631;
+ }
+ #review-title{
+    font-family: oswald;
+    color:#eae7b1;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 200%;
+    letter-spacing: 4px;
  }
