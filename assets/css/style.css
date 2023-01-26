@@ -311,6 +311,7 @@ h1, h2{
     background-color: #eae7b1;
     margin-bottom:15px;
 }
+
 .meal-img{
     /* position: relative; */
     background: url('../images/cm-over-night-oats.png') no-repeat center center;
@@ -325,5 +326,7 @@ h1, h2{
 .meal-img:hover{
     cursor: pointer;
     box-shadow: none;
-    filter: blur(1.2px);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.01);
 }
+
