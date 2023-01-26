@@ -312,7 +312,7 @@ h1, h2{
     margin-bottom:15px;
 }
 
-.meal-img{
+#meal-img-overnight-oats{
     position: relative;
     background: url('../images/cm-over-night-oats.png') no-repeat center center;
     background-size:cover;
@@ -324,14 +324,45 @@ h1, h2{
     transition: transform 0.3s ease-in-out;
 }
 
+#meal-img-chili-con-carne{
+    position: relative;
+    background: url('../images/cm-chili-con-carne.png') no-repeat center center;
+    background-size:cover;
+    height: 560px;
+    width: 75%;
+    margin:0 auto;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 53px 0px #eae7b1;
+    transition: transform 0.3s ease-in-out;
+}
+#meal-img-banana-bread{
+    position: relative;
+    background: url('../images/cm-banana-bread.jpg') no-repeat center center;
+    background-size:cover;
+    height: 560px;
+    width: 75%;
+    margin:0 auto;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 53px 0px #eae7b1;
+    transition: transform 0.3s ease-in-out;
+}
 /* Hover Effects Learned at https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 
-.meal-img:hover{
+#meal-img-overnight-oats:hover{
     cursor: pointer;
     box-shadow: inset 5px 5px 25px 0px #eae7b1;
     transform: scale(1.01);
 }
-
+#meal-img-chili-con-carne:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 25px 0px #eae7b1;
+    transform: scale(1.01);
+}
+#meal-img-banana-bread:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 25px 0px #eae7b1;
+    transform: scale(1.01);
+}
 /* text over images in meals section */
 
 .text-card{
