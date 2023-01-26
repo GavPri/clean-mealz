@@ -320,13 +320,15 @@ h1, h2{
     width: 95%;
     margin:0 auto;
     border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 10px 10px 53px 0px #2c443c;
+    box-shadow: inset 10px 10px 53px 0px #2c443c;
+    transition: transform 0.3s ease-in-out;
 }
+
+/* Hover Effects Learned at https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+
 .meal-img:hover{
     cursor: pointer;
     box-shadow: none;
-    transition: all 0.2s ease-in-out;
     transform: scale(1.01);
 }
 
