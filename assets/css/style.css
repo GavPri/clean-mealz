@@ -637,3 +637,27 @@ h1, h2{
     background-color: #3c6255;
     color: #eae7b1;
 }
+
+/* newsletter sign up */
+#signup-background{
+    background: url('../images/cm-newsletter-sign-up-bckgr\ \(1\).png') no-repeat right center;
+    height:85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgba(60, 98, 85, 0.5);
+    width:50%;
+    height:20%;
+}
+legend{
+    font-family: oswald, sans-serif;
+    color:#eae7b1;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
