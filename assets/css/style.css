@@ -426,7 +426,7 @@ h1, h2{
  /* Review Section Banner */
  #reviews{
     width: 100%;
-    height:50vh;
+    height:60vh;
     background-color: whitesmoke;
  }
  #reveiws-header{
@@ -546,4 +546,54 @@ h1, h2{
     width: 125px;
     border-radius: 50%;
     background:url('../images/cm-happy-person-three.png');
+}
+
+#footer{
+    height: 25vh;
+    width: 100%;
+    background-color: red;
+}
+.contact{
+    display: inline;
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #eae7b1;
+}
+.contact h3{
+    text-align: center;
+    text-transform:uppercase;
+    color: #3c6255;
+    font-family: oswald, sans-serif;
+    line-height: 250%;
+    font-size: 150%;
+}
+#call-us{
+    height:25% ;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+    line-height: 280%;
+}
+#call-us p{
+    font-family: oswald, sans-serif;
+    color:#3c6255;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#email{
+    height:25% ;
+    width: 80%;
+    margin:0 auto
+}
+#email p{
+    font-family: oswald, sans-serif;
+    color:#3c6255;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-align: center;
 }
