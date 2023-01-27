@@ -426,7 +426,7 @@ h1, h2{
  /* Review Section Banner */
  #reviews{
     width: 100%;
-    height:100vh;
+    height:50vh;
     background-color: whitesmoke;
  }
  #reveiws-header{
@@ -450,26 +450,23 @@ h1, h2{
     float:left;
     width: 33%;
     height:50vh;
-    background-color: whitesmoke;
 }
 .fans-2{
     position:relative;
     float:right;
     width: 33%;
     height:50vh;
-    background-color: whitesmoke;
+
 }
 .fans-3{
     position:relative;
     margin:0 auto;
     width: 33%;
     height:50vh;
-    background-color: whitesmoke;
 }
 .fan-quote{
     width: 60%;
     height:80%;
-    background-color: whitesmoke;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -535,17 +532,18 @@ h1, h2{
     height:125px;
     width: 125px;
     border-radius: 50%;
-    background-color: aqua;
+    background: url('../images/cm-happy-person-one.png') no-repeat center center;
+    border-radius: 50%;
 }
 .fan-picture-2{
     height:125px;
     width: 125px;
     border-radius: 50%;
-    background-color: aqua;
+    background:url('../images/cm-happy-person-two.png')
 }
 .fan-picture-3{
     height:125px;
     width: 125px;
     border-radius: 50%;
-    background-color: aqua;
+    background:url('../images/cm-happy-person-three.png');
 }
