@@ -639,6 +639,7 @@ h1, h2{
 }
 
 /* newsletter sign up */
+
 #signup-background{
     background: url('../images/cm-newsletter-sign-up-bckgr\ \(1\).png') no-repeat right center;
     height:85vh;
@@ -650,7 +651,7 @@ h1, h2{
 form{
     background-color: rgba(60, 98, 85, 0.5);
     width:50%;
-    height:20%;
+    height:80%;
 }
 legend{
     font-family: oswald, sans-serif;
@@ -660,4 +661,53 @@ legend{
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 5%;
 }
+#forename, #surname{
+    width:100%;
+    height:23%;
+    text-align: center;
+    float: left;
+    margin-top: 2%;
+    
+}
+
+label{
+    font-family: oswald, sans-serif;
+    color:#eae7b1;
+    font-size:medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 20%;
+    line-height: 110%;
+    
+}
+#f-name{
+    margin-bottom: 5%;
+}
+#f-name, #l-name{ 
+    background-color: whitesmoke;
+    font-family: oswald, sans-serif;
+    color:#3c6255;
+    font-size:medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-right: 2.5%;
+    border: 1px solid black;
+    box-shadow: 3px 3px black;
+    border-radius: 2px;
+    line-height: 110%;
+    width: 50%;
+    padding: 0.5% 0;
+    float: l;
+}
+#f-name:active, #l-name:active{
+    box-shadow: none;
+    transform: translateY(3px);
+    
+}
+
