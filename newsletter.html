@@ -46,9 +46,14 @@
             <fieldset>
                 <legend class="fieldset-two">Contact Details</legend>
                 <div id="email-address">    
-                    <label for="email">Email Address</label> 
+                    <label for="email"> Email Address </label> 
                     <input id="email" type="email" name="email-address" placeholder="  Email Address" required>
 
+                </div>
+                <div id="telephone">    
+                    <label for="phone-number"> Phone Number (optional) </label> 
+                    <input id="phone-number" type="tel" name="phone-number" placeholder="  Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
+                    <!-- pattern learned at w3chools.com -->
                 </div>
             </fieldset>
         </form>
