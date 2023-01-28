@@ -583,14 +583,14 @@ h1, h2{
     line-height: 250%;
     font-size: 150%;
 }
-#call-us, #email, .social-links, #newsletter-prompt, #footer-subscribe{
+#call-us, .email, .social-links, #newsletter-prompt, #footer-subscribe{
     height:25% ;
     width: 80%;
     margin: 0 auto;
     padding-top: 2%;
     /* line-height: 280%; */
 }
-#call-us p, #email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p{
+#call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p{
     font-family: oswald, sans-serif;
     color:#3c6255;
     font-size: x-large;
@@ -663,31 +663,33 @@ legend{
     text-transform: uppercase;
     margin-bottom: 5%;
 }
-#forename, #surname{
-    width:100%;
-    height:23%;
-    text-align: center;
-    float: left;
-    margin-top: 2%;
-    
+.fieldset-two{
+    padding-top:5%;
 }
-
 label{
     font-family: oswald, sans-serif;
     color:#eae7b1;
     font-size:medium;
     font-weight: bold;
     letter-spacing: 2px;
-    text-align: center;
     text-transform: uppercase;
-    padding-right: 20%;
     line-height: 110%;
     
 }
+#forename, #surname, #email-address{
+    width:100%;
+    height:23%;
+    /* text-align: center; */
+    float: left;
+    margin-top: 2%;
+    position: relative;
+    left:5%;
+}
+
 #f-name{
     margin-bottom: 5%;
 }
-#f-name, #l-name{ 
+#f-name, #l-name, #email{  
     background-color: whitesmoke;
     font-family: oswald, sans-serif;
     color:#3c6255;
@@ -696,14 +698,14 @@ label{
     letter-spacing: 2px;
     text-align: left;
     text-transform: capitalize;
-    padding-right: 2.5%;
     border: 1px solid black;
     box-shadow: 3px 3px black;
     border-radius: 2px;
     line-height: 110%;
     width: 50%;
     padding: 0.5% 0;
-    float: l;
+    position: absolute;
+    right: 10%;
 }
 #f-name:active, #l-name:active{
     box-shadow: none;
