@@ -707,7 +707,6 @@ label{
 }
 #f-name:active, #l-name:active{
     box-shadow: none;
-    transform: translateY(3px);
-    
+    transform: translateY(3px);  
 }
 
