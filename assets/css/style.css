@@ -85,7 +85,7 @@ h1, h2{
     text-align: center;
     justify-content: center;
 }
-#newsletter {
+#newsletter, .newsletter-submit {
     text-align: center;
     display: inline-block;
     justify-content: center;
@@ -652,7 +652,8 @@ h1, h2{
 
 #signup-background{
     background: url('../images/cm-newsletter-sign-up-bckgr\ \(1\).png') no-repeat right center;
-    height:100%;
+    background-size: cover;
+    height:100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -662,8 +663,7 @@ h1, h2{
 form{
     background-color: rgba(60, 98, 85, 0.5);
     width:80%;
-    height:100%;
-    
+    height:90vh;  
 }
 legend{
     font-family: oswald, sans-serif;
@@ -731,3 +731,10 @@ label{
 #alergies input{
     padding-right: 2.5%;
 }
+.newsletter-submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    padding: 1%;
+    /* text-align: center; */
+} 
