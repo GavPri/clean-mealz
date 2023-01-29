@@ -598,7 +598,6 @@ h1, h2{
     width: 80%;
     margin: 0 auto;
     padding-top: 2%;
-    /* line-height: 280%; */
 }
 #call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p {
     font-family: oswald, sans-serif;
@@ -663,7 +662,10 @@ h1, h2{
 form{
     background-color: rgba(60, 98, 85, 0.5);
     width:80%;
-    height:90vh;  
+    height:90vh; 
+    border: 2px solid #3c6255; 
+    border-radius: 4px;
+    box-shadow: 4px 4px #273631;
 }
 legend{
     font-family: oswald, sans-serif;
@@ -736,5 +738,4 @@ label{
     margin: 0 auto;
     margin-top: 2.5%;
     padding: 1%;
-    /* text-align: center; */
 } 
