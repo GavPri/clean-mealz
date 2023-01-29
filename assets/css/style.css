@@ -660,7 +660,7 @@ h1, h2{
 }
 form{
     background-color: rgba(60, 98, 85, 0.5);
-    width:50%;
+    width:80%;
     height:100%;
 }
 legend{
@@ -687,16 +687,12 @@ label{
     
 }
 #forename, #surname, #email-address,#telephone, #diet-type, #alergies{
-    width:100%;
+    width:75%;
     height:23%;
-    /* text-align: center; */
-    float: left;
+    margin: 0 auto;
     margin-top: 2%;
     position: relative;
     left:5%;
-}
-#alergies legend{
-    margin-top:2%;
 }
 
 #f-name{
@@ -727,10 +723,9 @@ label{
     box-shadow: none;
     transform: translateY(3px);  
 }
- #alergies {
-    text-align: center;
+#alergies label{
+    padding-right: 7%;
 }
-input[type="checkbox"]{
-    padding-right: 2%;
-    display: block;
+#alergies input{
+    padding-right: 2.5%;
 }
