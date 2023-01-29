@@ -85,7 +85,7 @@ h1, h2{
     text-align: center;
     justify-content: center;
 }
-#newsletter{
+#newsletter {
     text-align: center;
     display: inline-block;
     justify-content: center;
@@ -574,6 +574,16 @@ h1, h2{
     width: 33%;
     background-color: #eae7b1;
 }
+#footer-subscribe a{
+    text-decoration: none;
+    color:#eae7b1;
+    font-family: oswald, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 .logo h3, #social-media h3, .newsletter-header h3{
     text-align: center;
@@ -590,7 +600,7 @@ h1, h2{
     padding-top: 2%;
     /* line-height: 280%; */
 }
-#call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p{
+#call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p {
     font-family: oswald, sans-serif;
     color:#3c6255;
     font-size: x-large;
