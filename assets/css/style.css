@@ -686,7 +686,7 @@ label{
     line-height: 110%;
     
 }
-#forename, #surname, #email-address,#telephone, #diet-type{
+#forename, #surname, #email-address,#telephone, #diet-type, #alergies{
     width:100%;
     height:23%;
     /* text-align: center; */
@@ -695,11 +695,15 @@ label{
     position: relative;
     left:5%;
 }
+#alergies legend{
+    margin-top:2%;
+    
+}
 
 #f-name{
     margin-bottom: 5%;
 }
-#f-name, #l-name, #email,#phone-number,#diet {  
+#f-name, #l-name, #email,#phone-number,#diet,#alergy {  
     background-color: whitesmoke;
     font-family: oswald, sans-serif;
     color:#3c6255;
@@ -716,6 +720,9 @@ label{
     padding: 0.5% 0;
     position: absolute;
     right: 10%;
+}
+#alergy, #alergies{
+    margin-top: 2%;
 }
 #f-name:active, #l-name:active{
     box-shadow: none;
