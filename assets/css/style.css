@@ -652,7 +652,7 @@ h1, h2{
 
 #signup-background{
     background: url('../images/cm-newsletter-sign-up-bckgr\ \(1\).png') no-repeat right center;
-    height:85vh;
+    height:100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -661,7 +661,7 @@ h1, h2{
 form{
     background-color: rgba(60, 98, 85, 0.5);
     width:50%;
-    height:80%;
+    height:100%;
 }
 legend{
     font-family: oswald, sans-serif;
@@ -697,7 +697,6 @@ label{
 }
 #alergies legend{
     margin-top:2%;
-    
 }
 
 #f-name{
@@ -728,4 +727,10 @@ label{
     box-shadow: none;
     transform: translateY(3px);  
 }
-
+ #alergies {
+    text-align: center;
+}
+input[type="checkbox"]{
+    padding-right: 2%;
+    display: block;
+}
