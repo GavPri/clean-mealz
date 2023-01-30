@@ -880,8 +880,16 @@ label{
     height: 40vh;
     background-color: yellow;
 }
-.ingredients-header{
+.ingredients-header,.meal-bio-header{
     width: 100%;
     height: 8vh;
     background-color: purple;
+}
+.meal-bio{
+    width:70%;
+    height:40vh;
+    position: absolute;
+    left:30%;
+    top:0;
+    background-color: palegoldenrod;
 }
