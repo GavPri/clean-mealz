@@ -739,3 +739,27 @@ label{
     margin-top: 2.5%;
     padding: 1%;
 } 
+/* recipes page */
+.hero-image{
+    height: 50vh;
+    width: 100%;
+    background:url('../images/cm-hero-img.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-text-container{
+    height: 25vh;
+    width: 50%;
+    background-color: rgba(234, 231, 177, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-text-container h3{
+    font-family: oswald,sans-serif;
+    color: #3c6255;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
