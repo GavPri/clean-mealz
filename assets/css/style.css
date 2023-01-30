@@ -798,6 +798,7 @@ label{
     justify-content: center;
     align-items: center;
     position: relative;
+    border-bottom: 1px solid #273631;
 }
 .our-goal{
     position: absolute;
@@ -805,12 +806,13 @@ label{
     width: 100%;
     height:6.5vh;
     text-align: center;
+    
 }
 .our-goal h3{
     margin-top: 1vh;
     font-family: oswald,sans-serif;
     letter-spacing: 0.1em;
-    font-size: xx-large;
+    font-size: 220%;
     text-decoration: underline;
     color: #3c6255;
 }
@@ -822,4 +824,27 @@ label{
     font-size: medium;
     color: #3c6255;  
     font-weight: 600;
+}
+/* meal recipe styling */
+#meal-recipe{
+    height:100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#meal-banner{
+    position: absolute;
+    top: 0%;
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #273631;
+}
+#meal-banner h3{
+    font-family: oswald,sans-serif;
+    font-size: 220%;
+    color: #3c6255;
 }
