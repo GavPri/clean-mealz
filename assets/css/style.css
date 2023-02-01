@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -8,6 +8,12 @@
 h1, h2,h3{
     font-family: Oswald , sans-serif;
     font-size: 210%;
+}
+p{
+    font-family: roboto Condensed, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: medium;
+    color: #3c6255;
 }
 #banner{
     background-color: #eae7b1;
@@ -819,7 +825,6 @@ label{
 #introduction p{
     width: 50%;
     margin-top: 1vh;
-    font-family: oswald,sans-serif;
     letter-spacing: 0.1em;
     font-size: medium;
     color: #3c6255;  
