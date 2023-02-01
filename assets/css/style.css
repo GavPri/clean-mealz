@@ -5,11 +5,12 @@
     padding: 0;
     border: none;
 }
-h1, h2,h3,h4{
+h1, h2,h3,h4, th{
     font-family: Oswald , sans-serif;
     font-size: 210%;
 }
-p, li{
+
+p, li,td, th{
     font-family: roboto Condensed, sans-serif;
     letter-spacing: 0.1em;
     font-size: medium;
@@ -890,23 +891,29 @@ label{
     height: 50vh;
     background-color: whitesmoke;
 }
-.ingredients-list h4, .steps h4{
+.ingredients-list h4, .steps h4, .nutritional-info h4 {
     text-align: center;
-    margin: 2.5% 0;
-    border-bottom: 1px solid #273631;
+    line-height: 1.8rem;
+    text-transform: capitalize;
+    margin-bottom: 5%;
 }
-.ingredients-list ul{
-    /* margin-top: 12.5%; */
+.steps h4, .steps ol{
+    margin-top:0;
+    margin-bottom:2.5%;
+}
+.ingredients-list ul, .steps ol, table{
+    margin-top: 10%;
     width: 100%;
     text-align: left;
     position: absolute;
-    left: 25%;
+    left: 5%;
     list-style: none;
+    line-height: 1.8rem;
 }
-.ingredients-list ul li{
+/* .ingredients-list ul li, .steps ol li{
     padding-bottom: 2.5%;
     margin-bottom: 1%;
-}
+} */
 
 .meal-bio{
     width:100%;
@@ -948,7 +955,7 @@ label{
     position: absolute;
     bottom: 0;
     left:25%;
-    background-color: forestgreen;
+    background-color: whitesmoke;
 }
 .nutritional-info{
     width: 25%;
@@ -956,5 +963,5 @@ label{
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: black;
+    background-color: whitesmoke;
 }
