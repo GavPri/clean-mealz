@@ -829,7 +829,7 @@ label{
 #meal-recipe{
     height:100vh;
     width: 100vw;
-    background-color: red;
+    background-color: whitesmoke;
     position: relative;
 }
 #meal-banner{
@@ -849,12 +849,15 @@ label{
     color: #3c6255;
 }
 .meal-image{
-    background-color: blueviolet;
+    background:url('../images/cm-over-night-oats.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 5px;
     width: 25%;
-    height: 85%;
+    height: 75%;
     position: absolute;
     left: 2.5%;
-    bottom: 2.5%;
+    bottom: 7.5%;
+    box-shadow: 10px 10px #273631 ;
 }
 .meal-instruction{
     background-color: greenyellow;
@@ -881,11 +884,7 @@ label{
     height: 50vh;
     background-color: yellow;
 }
-.meal-bio-header{
-    width: 100%;
-    height: 8vh;
-    background-color: purple;
-}
+
 .meal-bio{
     width:100%;
     height:40vh;
