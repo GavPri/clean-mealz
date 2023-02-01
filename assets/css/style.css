@@ -850,11 +850,11 @@ label{
 }
 .meal-image{
     background-color: blueviolet;
-    width: 33%;
-    height: 90vh;
+    width: 25%;
+    height: 85%;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 2.5%;
+    bottom: 2.5%;
 }
 .meal-instruction{
     background-color: greenyellow;
@@ -871,25 +871,25 @@ label{
     background-color: aqua;
     overflow-x: hidden;
     position: relative;
+    overflow-y: hidden;
 }
 .ingredients-list{
     position: absolute;
     left:0;
-    top: 0;
-    width: 30%;
-    height: 40vh;
+    bottom: 0;
+    width: 25%;
+    height: 50vh;
     background-color: yellow;
 }
-.ingredients-header,.meal-bio-header{
+.meal-bio-header{
     width: 100%;
     height: 8vh;
     background-color: purple;
 }
 .meal-bio{
-    width:70%;
+    width:100%;
     height:40vh;
     position: absolute;
-    left:30%;
     top:0;
     background-color: palegoldenrod;
 }
@@ -899,6 +899,7 @@ label{
     background-color: aquamarine;
     position: absolute;
     top:40vh;
+    overflow-y: hidden;
 }
 .meal-guide-header{
     width: 100%;
@@ -906,17 +907,18 @@ label{
     background-color: hotpink;
 }
 .steps{
-    width: 66%;
-    height:83%;
+    width: 50%;
+    height:50vh;
     position: absolute;
     bottom: 0;
+    left:25%;
     background-color: forestgreen;
 }
 .nutritional-info{
-    width: 33%;
-    height:83%;
+    width: 25%;
+    height:50vh;
     position: absolute;
     right: 0;
+    bottom: 0;
     background-color: black;
-    /* z-index: 2; */
 }
