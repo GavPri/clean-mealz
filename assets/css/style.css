@@ -9,7 +9,7 @@ h1, h2,h3,h4{
     font-family: Oswald , sans-serif;
     font-size: 210%;
 }
-p{
+p, li{
     font-family: roboto Condensed, sans-serif;
     letter-spacing: 0.1em;
     font-size: medium;
@@ -888,7 +888,24 @@ label{
     bottom: 0;
     width: 25%;
     height: 50vh;
-    background-color: yellow;
+    background-color: whitesmoke;
+}
+.ingredients-list h4, .steps h4{
+    text-align: center;
+    margin: 2.5% 0;
+    border-bottom: 1px solid #273631;
+}
+.ingredients-list ul{
+    /* margin-top: 12.5%; */
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    left: 25%;
+    list-style: none;
+}
+.ingredients-list ul li{
+    padding-bottom: 2.5%;
+    margin-bottom: 1%;
 }
 
 .meal-bio{
