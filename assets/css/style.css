@@ -14,6 +14,7 @@ p{
     letter-spacing: 0.1em;
     font-size: medium;
     color: #3c6255;
+    line-height: 1.8rem;
 }
 #banner{
     background-color: #eae7b1;
@@ -895,11 +896,16 @@ label{
     height:40vh;
     position: absolute;
     top:0;
-    background-color: palegoldenrod;
+    background-color: whitesmoke;
+    border-top: 1px solid black;
 }
 .meal-bio h3{
     text-align: center;
     color: #3c6255;
+}
+.meal-bio p{
+    width:75%;
+    margin: 0 auto;
 }
 .meal-guide{
     width: 100%;
@@ -908,11 +914,16 @@ label{
     position: absolute;
     top:40vh;
     overflow-y: hidden;
+   
 }
 .meal-guide-header{
     width: 100%;
     height: 10vh;
-    background-color: hotpink;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c6255;
 }
 .steps{
     width: 50%;
