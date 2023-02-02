@@ -386,6 +386,7 @@ p, li,td, th{
     text-align: center;
     padding-left: 2%;
     padding-right: 2%;
+    font-size: 110%;
 }
 .meals-button{
     background-color: rgba(60, 98, 85, 0.5);
