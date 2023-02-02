@@ -130,13 +130,18 @@ p, li,td, th{
     animation-name: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #hero-outer{
     position: relative;
     height: 450px;
     width:100%;
-    overflow: hidden;
-
+    /* overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 @keyframes hero-zoom {
@@ -165,19 +170,7 @@ p, li,td, th{
     letter-spacing: 4px;
     width: 1000px;
     height: 50px;
-    padding-top:25px; 
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-bottom: 25px;
     background-color: rgba(234, 231, 177, 0.9);
-
-    bottom: 200px;
-    top:200px;
-    /* right and left values that best align cover text with background images */
-    /* right:548px; */
-    left:329.45px;
-    position: absolute;
-
     border-radius: 10px;
 }
 #reasons{
