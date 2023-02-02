@@ -138,10 +138,6 @@ p, li,td, th{
     position: relative;
     height: 450px;
     width:100%;
-    /* overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 @keyframes hero-zoom {
@@ -328,9 +324,9 @@ p, li,td, th{
     transition: transform 0.3s ease-in-out;
 }
 
-#meal-img-chili-con-carne{
+#meal-img-very-berry{
     position: relative;
-    background: url('../images/cm-chili-con-carne.png') no-repeat center center;
+    background: url('../images/cm-berry-smoothie.png') no-repeat center center;
     background-size:cover;
     height: 560px;
     width: 75%;
@@ -339,9 +335,9 @@ p, li,td, th{
     box-shadow: inset 10px 10px 53px 0px #eae7b1;
     transition: transform 0.3s ease-in-out;
 }
-#meal-img-banana-bread{
+#meal-img-lasagne{
     position: relative;
-    background: url('../images/cm-banana-bread.jpg') no-repeat center center;
+    background: url('../images/cm-lasagne.png') no-repeat center center;
     background-size:cover;
     height: 560px;
     width: 75%;
