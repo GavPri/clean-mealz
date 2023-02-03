@@ -175,6 +175,7 @@ p, li,td, th{
     height: 50px;
     background-color: rgba(234, 231, 177, 0.9);
     border-radius: 10px;
+    padding:2.5%
 }
 #reasons{
     width: 100%;
@@ -1043,6 +1044,73 @@ label{
 }
 #lunch-banner h3,  #dinner-banner h3{
     color:#eae7b1;
+}
+
+/* Home Page Media  */
+@media screen and (max-width: 2561px){
+    p, li,td,th{
+        font-size: x-large;
+    }
+    
+    .reason-photo-container{
+        margin-top: 2.5%;
+    }
+    h1,h2,h3,h4{
+        font-size: 280%;
+    }
+    .fan-review p{
+        font-size: x-large;
+    }
+    .fan-picture-container{
+        bottom:30%;
+        left:20%;
+    }
+    .reason-photo-container{
+        margin-top: 2.5%;
+    }
+    .top-text{
+        width: 100%;
+        font-size: 160%;
+    }
+    /* ^^ Add changes to footer above ^^ */
+
+    /* Recipe Page */
+    #introduction p{
+        font-size: x-large;
+    }
+    .meal-bio h3 {
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+    }
+    ol li{
+        width: 75%;
+        padding-bottom: 2.5%;
+    }
+    /* newsletter page */
+    legend{
+        font-size: 280%;
+    }
+    label{
+        font-size: 240%;
+    }
+    input{
+        height: 100%;
+        right:5%;
+    }
+    #allergies{
+        width:100%;
+    }
+    #f-name, #l-name, #email, #phone-number, #diet, #alergy {
+        right: 5%;
+    }
+    .newsletter-submit{
+        width: 25%;
+        margin-top: 1%;
+        font-size: xx-large;
+    }
+    #alergies label {
+        padding-right: 5%;
+    }
 }
 @media screen and (max-width: 1130px){
     #banner{
