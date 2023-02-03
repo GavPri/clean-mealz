@@ -1061,13 +1061,7 @@ label{
     footer{
         overflow-y: hidden;
     }
-    #footer-newsletter{
-        width:80%;
-        height:12.5%;
-    }
-    #footer-subscribe a{
-        font-size: large;
-    }
+    
 }
 @media  screen and (max-width:1630px) {
      .fan-review{
@@ -1080,5 +1074,13 @@ label{
     .fan-picture-container{
         bottom:10%;
         left: 10%;
+    }
+}
+@media  screen and (max-width:1630px){
+    #footer-subscribe a{
+        font-size: large;
+    }
+    #newsletter-prompt p {
+        font-size: 105%;
     }
 }
