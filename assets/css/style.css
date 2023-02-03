@@ -1057,9 +1057,25 @@ label{
         width: 100%;
         margin:0 auto;
     }
-    .fan-review{
-        width:90%;
-        height: 70%;
+    
+    footer{
+        overflow-y: hidden;
+    }
+    #footer-newsletter{
+        width:80%;
+        height:12.5%;
+    }
+    #footer-subscribe a{
+        font-size: large;
+    }
+}
+@media  screen and (max-width:1630px) {
+     .fan-review{
+        width:95%;
+        height: 60%;
+    }
+    .fan-review p{
+        height: 101%;
     }
     .fan-picture-container{
         bottom:10%;
