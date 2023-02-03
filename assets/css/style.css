@@ -388,10 +388,10 @@ p, li,td, th{
 .meals-button{
     background-color: rgba(60, 98, 85, 0.5);
     height: 10%;
-    width: 30%;
+    width: 80%;
     position: absolute;
     bottom: 5%;
-    right:35%;
+    right:10%;
     border-radius: 5px;
 
     /* Styling button */
