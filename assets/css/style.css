@@ -1252,6 +1252,12 @@ label{
     }
     
 }
+@media screen and (max-width: 1278px){
+    .fan-review p {
+        font-size: 1rem;
+    }
+    .fan
+}
 @media screen and (max-width: 1050px){
     #cover-text h2{
         font-size: 200%;
