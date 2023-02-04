@@ -1078,6 +1078,12 @@ label{
     #introduction p{
         font-size: x-large;
     }
+    .meal-bio{
+        height:30vh;
+    }
+    .meal-guide{
+        top:30vh;
+    }
     .meal-bio h3 {
         margin-top: 2.5%;
         margin-bottom: 5%;
@@ -1112,24 +1118,46 @@ label{
         padding-right: 5%;
     }
 }
-@media screen and (max-width: 1130px){
-    #banner{
-        height:40vh;
+/* Media Queries To 1440 */
+@media  screen and (max-width:2346px){
+    #f-name, #l-name, #email, #phone-number, #diet, #alergy{
+        width: 40%;
+        font-size: 160%;
+    }
+    label{
+        font-size: 160%;
+    }
+
+}
+@media  screen and (max-width:2217px){
+    .fan-review{
+        height: 70%;
+    }
+    .fan-picture-container{
+        bottom:20%;
+    }
+}
+@media  screen and (max-width:1673px){
+    #forename, #surname, #email-address, #telephone, #diet-type, #alergies{
         width: 100%;
     }
-    #menu{
-        display: block;
-        width: 100%;
+    #alergies{
+        left: 10%;
     }
-    #logo {
-        width: 100%;
-        margin:0 auto;
+    .newsletter-submit {
+        margin-top:15%;
     }
-    
-    footer{
-        overflow-y: hidden;
+}
+@media  screen and (max-width:1662px){
+    #allergies{
+        left: 10%;
     }
-    
+}
+@media  screen and (max-width:1630px){
+    .top-text{
+        width: 90%;
+        font-size: 110%;
+    }
 }
 @media  screen and (max-width:1630px) {
      .fan-review{
@@ -1202,5 +1230,30 @@ label{
     }
     ul li{
         font-size: 1rem;
+    }
+}
+/* media queries to 1024 maxwidth */
+@media screen and (max-width: 1130px){
+    #banner{
+        height:40vh;
+        width: 100%;
+    }
+    #menu{
+        display: block;
+        width: 100%;
+    }
+    #logo {
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    footer{
+        overflow-y: hidden;
+    }
+    
+}
+@media screen and (max-width: 1050px){
+    #cover-text h2{
+        font-size: 200%;
     }
 }
