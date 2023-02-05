@@ -1256,7 +1256,51 @@ label{
     .fan-review p {
         font-size: 1rem;
     }
-    .fan
+    #introduction p{
+        width: 90%;
+    }
+    p, ul li, ol li{
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+    br{
+        display: none;
+    }
+    .meal-bio h3{
+        margin-bottom: 2%;
+    }
+    .steps h4, .ingredients-list h4, .nutritional-info h4{
+        font-size: 100%;
+        margin-bottom: 0;
+    }
+    .steps ol{
+        margin-top: 0;
+    }
+    #footer-subscribe a,#call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p {
+        font-size: 1rem;
+    }
+    .logo h3, #social-media h3, .newsletter-header h3{
+        font-size: 125%;
+    }
+    label{
+        font-size: 120%;
+    }
+    #alergies{
+        left: 4%;
+    }
+    #alergies label{
+        font-size: 100%;
+    }
+    .newsletter-submit{
+        margin-top: 1%;
+    }
+    legend{
+        font-size: 240%;
+    }
+    #f-name, #l-name, #email, #phone-number, #diet, #alergy{
+        font-size: 100%;
+    }
+   
 }
 @media screen and (max-width: 1050px){
     #cover-text h2{
