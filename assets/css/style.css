@@ -251,7 +251,7 @@ section{
     width:90%;
     margin: 0 auto;
     color:#3c6255;
-    font-family: source-sans-serif, sans-serif;
+    font-family: roboto, sans-serif;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-align:center;
@@ -318,7 +318,7 @@ section{
 .breakfast{
     height:100%;
     text-align: center;
-    font-family: source-open-sans,sans-serif;
+    font-family: roboto ,sans-serif;
     text-transform: uppercase;
     line-height: 180%;
     color: #2c443c;
@@ -488,7 +488,7 @@ section{
 .fan-review{
     width: 75%;
     height: 50%;
-    background-color: white;
+    background-color: whitesmoke;
     position: absolute;
     top: 12.5%;
     left:12.5%;
@@ -501,8 +501,8 @@ section{
     height: 90%;
     margin: 0 auto;
     padding-top: 2.5%;
-    font-family: roboto ,sans-serif;
-    font-weight: 400;
+    font-family: roboto-condensed ,sans-serif;
+    font-weight: 600;
     letter-spacing: 2px;
     line-height: 120%;
     color: #3c6255; 
@@ -1597,5 +1597,72 @@ label{
 @media screen and (max-width:425px){
     .newsletter-submit {
         margin-top: 20%;
+    }
+    .reason-text-container p{
+        font-size: 100%;
+    }
+    #menu li a{
+        letter-spacing: 2px;
+    }
+    .steps ol li, .ingredients-list ul li, .ingredients-list h4, .steps h4, .nutritional-info h4{
+        line-height: 1rem;
+    }
+}
+@media screen and (max-width:375px){
+    .reason-text-container p{
+    font-size: 90%;
+    }
+    .fan-review p{
+        font-size: .675rem;
+    }
+    #diet-type label{
+        font-size: 50%;
+    }
+    fieldset{
+        margin-top: 5%;
+    }
+    .fieldset-three legend{
+        margin-top: 5%;
+    }
+    #alergies label{
+        font-size: 80%;
+    }
+    #introduction p{
+        width: 98%;
+    }
+    #meal-banner h3{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:322px){
+    #menu li a {
+        letter-spacing: 1px;
+    }
+    #cover-text h2 {
+        font-size: 40%;
+        font-weight: bold;
+    }
+    .reason-text-container p {
+        font-size: 85%;
+    }
+    #reasons{
+        height: 3vh;
+    }
+    #meals-header{
+        height: 3vh;
+        line-height: 3vh;
+    }
+    .fan-review p {
+        font-size: .6rem;
+        height: 100%;
+    }
+    .review-icon{
+        top: 5%;
+    }
+    #introduction p{
+        line-height: 1.4rem;
+    }
+    #cover-text h2 {
+        font-size: 50%;
     }
 }
