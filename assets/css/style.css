@@ -305,6 +305,12 @@ p, li,td, th{
     height:5%;
     background-color: whitesmoke;
 }
+.meal-type-very-berry{
+    display: inline-block;
+    width: 33%;
+    height:5%;
+    background-color: whitesmoke;
+}
 .breakfast{
     height:100%;
     text-align: center;
@@ -1301,9 +1307,285 @@ label{
         font-size: 100%;
     }
    
+    .fan-picture, .fan-picture-container, .fan-picture-2, .fan-picture-3{
+        width: 100px;
+        height: 100px;
+   }
 }
 @media screen and (max-width: 1050px){
     #cover-text h2{
         font-size: 200%;
     }
+}
+
+@media screen and (max-width:1000px) {
+    #cover-text h2 {
+    font-size: 150%;
+    }
+    .fan-review p{
+        font-size: 0.8rem;
+    }
+    #banner{
+        height: 50vh;
+    }
+    #subscribe{
+        float:none;
+        clear: both;
+        margin:0 auto;
+        margin-bottom: 10%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    #meal-type{
+       float:right;
+    }
+    #meal-img-lasagne{
+        display: none;
+    }
+    .meal-type{
+        width:40%;
+        margin:0 auto;
+
+    }
+    .meal-type-very-berry {
+        float: right;
+        width:50%;
+    }
+    .meal-type{
+        width: 50%;
+    }
+    
+    .logo h3, #social-media h3, .newsletter-header h3{
+        font-size: 90%;
+    }
+    #call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p{
+        font-size: 0.9rem;
+    }
+    #footer-subscribe a{
+        font-size: 0.7rem;
+    }
+    .ingredients-list li{
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .steps h4, .ingredients-list h4, .nutritional-info h4{
+        font-size: 90%;
+    }
+    #meal-banner h3{
+        font-size: 150%;
+    }
+    .meal-bio h3, .meal-guide-header h3{
+        font-size: 1.2rem;
+    }
+    .steps ol li{
+        font-size: 0.8rem;
+        width: 89%;
+    }
+    #alergies label{
+        font-size: 60%;
+    }
+    legend{
+        font-size: 190%;
+    }
+    label{
+        font-size: 100%;
+    }
+    .newsletter-submit{
+        margin-top: 10%;
+    }
+}
+/* media queries for tablet and mobile phones */
+@media screen and (max-width:996px){
+    div#subscribe {
+        width: 92%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav{
+        display: block;
+    }
+    #menu{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu li {
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 5%;
+        margin-right: 0;
+    	}
+    #menu li a{
+        padding:20px 0px;
+    }
+    #subscribe{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    #hero-image, #hero-outer{
+        height: 300px;
+        overflow-y: hidden;
+    }
+    #logo{
+        line-height: 6vh;
+    }
+    #menu{
+        line-height: 7vh;
+    }
+    #banner{
+        height: 25vh;
+    }
+    #reasons{
+        line-height:5vh;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meal-bio p{
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .our-goal h3{
+        margin-top: 0;
+    }
+    #cover-text h2{
+        font-size: 80%;
+    }
+    h2{
+        font-size: 100%;
+    }
+    .reason-ing, .encouragement, .goodness {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: auto;
+        height: 30vh;
+    }
+    .top-text{
+        font-size: 90%;
+    }
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        display:block;
+        float: none;
+        margin: 0 auto;
+        clear: both;
+        width: 85%;
+        height: 40vh;
+        margin-bottom: 2.5%;
+    }
+    .fans-2{
+        display: none;
+    }
+    .fans-3{
+        float: right;
+        width: 50%;
+    }
+    .fans{
+        width:50%;
+    }
+    .fan-review p{
+        font-size: 0.7rem;
+    }
+    .logo h3, #social-media h3, .newsletter-header h3{
+        font-size: 70%;
+    }
+    #call-us p, .email p, #newsletter-prompt p, #footer-newsletter, #social-media-prompt p{
+        font-size: 0.7rem;
+    }
+    #footer-subscribe{
+        margin-top: 5%;
+    }
+    #footer-newsletter{
+        width:90%;
+    }
+    .socilal-media ul li{
+        padding-right: 0;
+    }
+    .social-links ul li a{
+        font-size: 0.5rem;
+    }
+    .newsletter{
+        display: none;
+    }
+    .logo, #social-media{
+        width: 50%;
+    }
+    #review-title{
+        font-size: 100%;
+    }
+    /* Recipe page styling for mobile */
+    .cover-text-container{
+        padding: 5% 10%;
+    }
+    #introduction p, th, td{
+        font-size: 0.6rem;
+    }
+    .meal-bio{
+        display: none;
+    }
+    .meal-image, .meal-image-2, .meal-image-3, .meal-image-4, .meal-image-5, .meal-image-6, .meal-image-7, .meal-image-8 {
+        width: 98%;
+        z-index:2;
+        height: 30%;
+        left:0;
+        top:10vh;
+        bottom:auto;
+    }
+    .meal-instruction{
+        width: 100%;
+    }
+    h3{
+        font-size: 150%;
+    }
+    #meal-banner h3{
+        font-size: 120%;
+    }
+    .ingredients-list h4{
+        font-size: 60%;
+    }
+    .steps, .ingredients-list, .nutritional-info{
+        top:7vh;
+        height: 60vh;
+    }
+    .steps ol li{
+        font-size: 0.7rem;
+    }
+    .meal-guide-header{
+        height: 7vh;
+    }
+    strong{
+        display: none;
+    }
+    /* newsletter signup  */
+    legend{
+         font-size: 100%;
+    }
+    label,#f-name, #l-name, #email, #phone-number, #diet, #alergy{
+        font-size: 65%;
+    }
+    form{
+        background-color: rgba(60, 98, 85, 0.9);
+        width:90%;
+        height:75vh;
+    } 
+    #diet-type label{
+        font-size: 60%;
+    }
+    #alergies{
+        left:0;
+        font-size: 60%;
+    }  
+    #alergies label{
+        padding-right: 0;
+        font-size: 100%;
+    }
+    .newsletter-submit{
+        width: auto;
+    }
+    
 }
