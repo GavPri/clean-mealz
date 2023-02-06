@@ -1828,3 +1828,13 @@ br{
 h5{
     font-size: 120%;
 }
+}
+/* Media Queries For Samsung Galaxy */
+@media screen and (max-height:914px){
+    #meal-img-very-berry{
+        height: 30vh;
+    }
+    .top-text{
+        font-size: 77%;
+    }
+}
