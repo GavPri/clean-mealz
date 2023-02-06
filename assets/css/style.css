@@ -42,15 +42,16 @@ p, li,td, th{
     font-weight: 700;
     justify-content: center;
     font-size: 250%;
+    /* position: absolute; */
 
 }
 
 /* navigation styling  */
 #menu{
-    float: right;
     width:75%;
     text-align: center;
     line-height: 150px;
+    position: relative;
     
 }
 #menu li{
@@ -75,6 +76,8 @@ p, li,td, th{
 }
 #logo a{
     color: #3c6255;
+    position: relative;
+    z-index: 2;
 }
 .nav-button{
     border-right: 1px solid #2c443c;
@@ -102,7 +105,7 @@ p, li,td, th{
     text-align: center;
     justify-content: center;
 }
-#newsletter, .newsletter-submit {
+#newsletter{
     text-align: center;
     display: inline-block;
     justify-content: center;
@@ -117,6 +120,32 @@ p, li,td, th{
     background-color: #3c6255;
     box-shadow: 0 5px 0 #2c443c;
     transition: transform 0.1s ease-out;
+    height: 2.5%;
+    width: 20%;
+    position: absolute;
+    top: 6%;
+    right: 10%;
+}
+.newsletter-submit{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: oswald, sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #eae7b1;
+    background-color: #3c6255;
+    box-shadow: 0 5px 0 #2c443c;
+    transition: transform 0.1s ease-out;
+}
+
+#newsletter a p{
+    
+    color: #eae7b1;
 }
 #newsletter:active{
     box-shadow: none;
@@ -404,6 +433,9 @@ section{
     bottom: 5%;
     right:10%;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
 
     /* Styling button */
 
@@ -674,7 +706,7 @@ form{
     border-radius: 4px;
     box-shadow: 4px 4px #273631;
 }
-legend{
+h5{
     font-family: oswald, sans-serif;
     color:#eae7b1;
     font-size: x-large;
@@ -813,9 +845,10 @@ label{
     width: 100%;
     height:6.5vh;
     text-align: center;
+    display: block;
     
 }
-.our-goal h3{
+#introduction h3{
     margin-top: 1vh;
     font-family: oswald,sans-serif;
     letter-spacing: 0.1em;
@@ -832,14 +865,14 @@ label{
     font-weight: 600;
 }
 /* meal recipe styling */
-#meal-recipe{
+.meal-recipe{
     height:100vh;
     width: 100vw;
     background-color: whitesmoke;
     position: relative;
     border-bottom: 1px solid #273631;
 }
-#meal-banner{
+.meal-banner{
     position: absolute;
     top: 0%;
     height: 10vh;
@@ -849,8 +882,9 @@ label{
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #273631;
+    color: #3c6255;
 }
-#meal-banner h3{
+.meal-banner h3{
     font-family: oswald,sans-serif;
     font-size: 220%;
     color: #3c6255;
@@ -1057,7 +1091,20 @@ label{
     p, li,td,th{
         font-size: x-large;
     }
-    
+    #menu{
+        width: 100%;
+    }
+    #menu ul{
+        width: 75%;
+    }
+    #newsletter{
+        top:25%;
+        right: 5%;
+        height: 3vh;
+    }
+    #newsletter p{
+        line-height: 2;
+    }
     .reason-photo-container{
         margin-top: 2.5%;
     }
@@ -1099,7 +1146,7 @@ label{
         padding-bottom: 2.5%;
     }
     newsletter page  
-    legend{
+    h5{
         font-size: 280%;
     }
     label{
@@ -1166,7 +1213,30 @@ label{
         font-size: 110%;
     }
 }
+@media  screen and (max-width:1440px){
+    #newsletter{
+        top:35%;
+    }
+    #menu{
+        line-height: 1000%;
+        width: 100%;
+    }
+    #menu ul{
+        width:75%;
+    }
+    #logo h1{
+        font-size: 100%;
+    }
+}
+
 @media  screen and (max-width:1630px) {
+    #newsletter a p{
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+    }
+    #banner{
+        line-height: 30vh;
+    }
      .fan-review{
         width:95%;
         height: 60%;
@@ -1242,21 +1312,39 @@ label{
 /* media queries to 1024 maxwidth */
 @media screen and (max-width: 1130px){
     #banner{
-        height:40vh;
+        height:25vh;
         width: 100%;
+    }
+    #newsletter{
+        right: 40%;
     }
     #menu{
-        display: block;
+        display: inline;
+    }
+    #menu ul{
         width: 100%;
     }
+    #newsletter {
+        right: 45%;
+        top: 75%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     #logo {
-        width: 100%;
+        width: 25%;
         margin:0 auto;
     }
     
     footer{
         overflow-y: hidden;
     }
+    #hero-outer, .hero-image{
+        height:300px;
+        overflow: hidden;
+    }
+
     
 }
 @media screen and (max-width: 1300px){
@@ -1301,7 +1389,7 @@ label{
     .newsletter-submit{
         margin-top: 1%;
     }
-    legend{
+    h5{
         font-size: 240%;
     }
     #f-name, #l-name, #email, #phone-number, #diet, #alergy{
@@ -1373,7 +1461,7 @@ label{
     .steps h4, .ingredients-list h4, .nutritional-info h4{
         font-size: 90%;
     }
-    #meal-banner h3{
+    .meal-banner h3{
         font-size: 150%;
     }
     .meal-bio h3, .meal-guide-header h3{
@@ -1386,7 +1474,7 @@ label{
     #alergies label{
         font-size: 60%;
     }
-    legend{
+    h5{
         font-size: 190%;
     }
     label{
@@ -1451,7 +1539,7 @@ label{
         font-size: 0.7rem;
         font-weight: 600;
     }
-    .our-goal h3{
+    #introduction h3{
         margin-top: 0;
     }
     #cover-text h2{
@@ -1543,7 +1631,7 @@ label{
     h3{
         font-size: 150%;
     }
-    #meal-banner h3{
+    .meal-banner h3{
         font-size: 120%;
     }
     .ingredients-list h4{
@@ -1563,13 +1651,13 @@ label{
         display: none;
     }
     /* newsletter signup  */
-    legend{
+    h5{
          font-size: 100%;
     }
     label,#f-name, #l-name, #email, #phone-number, #diet, #alergy{
         font-size: 65%;
     }
-    form{
+    #bottom-form{
         background-color: rgba(60, 98, 85, 0.9);
         width:90%;
         height:75vh;
@@ -1589,20 +1677,52 @@ label{
         width: auto;
     } 
 }
+@media screen and (max-width:768px){
+    #logo{
+        width: 100%;
+    }
+    #menu li{
+        width: 20%;
+    }
+    #menu{
+        line-height: 15vh;
+    }
+    #newsletter a p{
+        line-height: 1.5vh;
+    }
+    #newsletter{
+        right: 36%;
+        top: 80%;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media screen and (max-width:645px){
     #alergies{
         left:2%;
     }
 }
 @media screen and (max-width:425px){
+    #logo{
+        width: 100%;
+    }
+    #newsletter{
+        top: 85%;
+        right:35%;
+    }
     .newsletter-submit {
         margin-top: 20%;
     }
     .reason-text-container p{
         font-size: 100%;
     }
+    #menu li{
+        width: 25%;
+    }
     #menu li a{
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
     .steps ol li, .ingredients-list ul li, .ingredients-list h4, .steps h4, .nutritional-info h4{
         line-height: 1rem;
@@ -1630,13 +1750,13 @@ label{
     #introduction p{
         width: 98%;
     }
-    #meal-banner h3{
+    .meal-banner h3{
         font-size: 100%;
     }
 }
 @media screen and (max-width:322px){
     #menu li a {
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
     #cover-text h2 {
         font-size: 40%;
