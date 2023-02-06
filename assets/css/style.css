@@ -1790,7 +1790,15 @@ label{
 #menu ul {
     width:auto;
     display: inline-block;
-}   
+}  
+#reasons{
+    height: 10vh;
+    line-height: 10vh;
+} 
+#hero-outer{
+    height:70vh;
+    border-top: none;
+}
 #menu li{
     display:inline-block;
     width: auto;
@@ -1830,11 +1838,67 @@ h5{
 }
 }
 /* Media Queries For Samsung Galaxy */
-@media screen and (max-height:914px){
+@media screen and (max-height:914px) and (max-width:500px) {
     #meal-img-very-berry{
         height: 30vh;
     }
     .top-text{
         font-size: 77%;
+    }
+    #cover-text h2{
+        letter-spacing: 0.2%;
+    }
+}
+@media screen and (max-height:653px) and (max-width:450px){
+    .reason-text-container p{
+        font-size: 80%;
+    }
+    .top-text{
+        font-size: 52%;
+    }
+    .fans-3{
+        display: none;
+    }
+    .fans{
+        width:100%;
+    }
+    .fan-review p{
+        font-size: 0.8rem;
+    }
+    #cover-text h2{
+        font-size: 40%;
+        line-height: 4vh;
+    }
+    .reason-text{
+        line-height: 0.66rem;
+    }
+    .reason-text-container p{
+        padding-top: 3.5%;
+        font-size: 75%;
+        font-weight: 400;
+    }
+    .reason-heading{
+        height: 10%;
+    }
+    #meal-img-very-berry,#meal-img-overnight-oats, .meal-type-very-berry, .meal-type{
+        height: 50vh;
+    }
+    #menu li{
+        width: auto;
+    }
+    #introduction p, td {
+        line-height: 1rem;
+    }
+    h3{
+        font-size: 100%;
+    }
+    #introduction h3{
+        font-size: 180%;
+    }
+    #newsletter a p{
+        line-height: 1rem;
+    }
+    .steps ol li {
+        font-size: 0.6rem;
     }
 }
