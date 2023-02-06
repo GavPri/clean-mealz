@@ -1786,3 +1786,45 @@ label{
         font-size: 50%;
     }
 }
+@media screen and (max-width:1132px) and (max-height:600px){
+#menu ul {
+    width:auto;
+    display: inline-block;
+}   
+#menu li{
+    display:inline-block;
+    width: auto;
+    margin:auto;
+}
+#newsletter {
+    width: auto;
+    right: -70%;
+    top: -70%;
+}
+#logo{
+    width: 30%;
+}
+.fan-review p {
+    font-size: 70%;
+}
+#introduction h3{
+    font-size: 170%;
+}
+br{
+    display: none;
+}
+#meal-bio h3{
+    margin:auto;
+}
+.steps ol li, .ingredients-list ul li{
+    font-size: 60%;
+}
+.ingredients-list ul, .steps ol, table{
+    margin-top: 0%;
+}
+.ingredients-list ul li{
+    line-height: 1.4rem;
+}
+h5{
+    font-size: 120%;
+}
