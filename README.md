@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 
 Clean Mealz is a website which users can find recipes for breakfast lunh or dinner.Clean Mealz targets cooks of all levels, be that a beginner or pro, Clean Mealz aims to have recipes accustometo all. Clen Mealz aims to help the cooks by providing step by step cooking guides, ingredients lists and nutrition information.
 ![Screen shot of clean mealz websiter](assets/images/responsive-display.png)
@@ -45,7 +45,7 @@ Clean Mealz is a website which users can find recipes for breakfast lunh or dinn
 ## Sign Up Page 
 * The sign up page allows users to sign up for weely newsletter sent by clean mealz.
     * The form requires first name, second name, diet type and alergy inputs to have the most personalised emails sent to each member. 
-    * The user is required to eneter an email and can also add a phone number as an optional input. 
+    * The user is required to eneter an email. 
 
 ![clean meals sign up form](assets/images/newsletter-sign-up.png)
 
