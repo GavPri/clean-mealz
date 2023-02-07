@@ -81,7 +81,7 @@ Clean Mealz is a website which users can find recipes for breakfast lunh or dinn
 ## Deployment
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
-    * In the GitHub repository, navigate to the Settings tab
+    * In the GitHub repository, navigate to the code and automation section on the left of the screen.
     * From the source section drop-down menu, select the Master Branch
     * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     * The live link can be found here 
@@ -97,3 +97,4 @@ Clean Mealz is a website which users can find recipes for breakfast lunh or dinn
 # Code 
 * Code used for Tel input on signup form was found on W3schools. (https://www.w3schools.com/tags/att_input_type_tel.asp)
 
+* The hover effect used on Our Favourites section was found on CreativeTim (https://www.creative-tim.com/blog/tiktok-learning/image-card-hover-using-css-and-js-tutorial/)
