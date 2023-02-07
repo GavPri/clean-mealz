@@ -1325,8 +1325,8 @@ label{
         width: 100%;
     }
     #newsletter {
-        right: 45%;
-        top: 75%;
+        right: 25%;
+        top: 100%;
         width: 20%;
         display: flex;
         justify-content: center;
@@ -1457,6 +1457,7 @@ label{
     .ingredients-list li{
         font-size: 0.6rem;
         font-weight: bold;
+        line-height: 1rem;
     }
     .steps h4, .ingredients-list h4, .nutritional-info h4{
         font-size: 90%;
@@ -1502,7 +1503,7 @@ label{
     }
     #menu li {
         display: inline-block;
-        width: 30%;
+        width: auto;
         margin-bottom: 5%;
         margin-right: 0;
     	}
@@ -1682,7 +1683,7 @@ label{
         width: 100%;
     }
     #menu li{
-        width: 20%;
+        width: auto;
     }
     #menu{
         line-height: 15vh;
@@ -1896,9 +1897,118 @@ h5{
         font-size: 180%;
     }
     #newsletter a p{
-        line-height: 1rem;
+        line-height: 0.75rem;
     }
     .steps ol li {
         font-size: 0.6rem;
+    }
+    .ingredients-list ul li{
+        line-height: 0.7rem;
+    }
+}
+@media screen and (max-width:950px) and (max-height:1400px){
+    h5{
+        font-size: 150%;
+    }
+    #alergies label{
+        font-size: 200%;
+    }
+    #newsletter-submit{
+        margin-top: 5%;
+    }
+    label, #f-name, #l-name, #email, #phone-number, #diet, #alergy{
+        font-size: 137%;
+    }
+    .fieldset-two, .fieldset-three{
+        padding-top: 10%;
+    }
+    #introduction p, th, td, .steps ol li, .ingredients-list ul li{
+        font-size: 1.4rem;
+    }
+    .ingredients-list ul li{
+        line-height: 1.7rem;
+    }
+    .steps h4, .ingredients-list h4, .nutritional-info h4{
+        font-size: 150%;
+    }
+    #menu li{
+        width: 20%;
+    }
+    #cover-text h2{
+        font-size: 150%;
+    }
+    h2{
+        font-size: 180%;
+    }
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        height: 20vh;
+    }
+    .fan-review p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:850px) and (max-height:1250px){
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        height: 25vh;
+    }
+    .fan-review p{
+        font-size: 1.2rem;
+    }
+    .ingredients-list ul li{
+        line-height: 1.5rem;
+    }
+    #introduction p, th, td, .steps ol li, .ingredients-list ul li{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:450px) and (max-height:1000px){
+    #menu li{
+        width:auto;
+    }
+    #introduction h3{
+        font-size: 150%;
+    }
+    #introduction p, th, td, .steps ol li, .ingredients-list ul li{
+        font-size: 0.7rem;
+    }
+    .steps h4, .ingredients-list h4, .nutritional-info h4 {
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:400px) and (max-height:900px) {
+    #introduction p, th, td, .steps ol li, .ingredients-list ul li{
+        font-size: 0.55rem;
+    }
+    .ingredients-list ul li{
+        line-height: 1.2rem;
+    }
+    #cover-text h2{
+        font-size: 60%;
+    }
+    .reason-text-container p{
+        font-size: 75%;
+    }
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        height: 40vh;
+    }
+    .fan-review p {
+    font-size: 0.6rem;
+    }
+    label, #f-name, #l-name, #email, #phone-number, #diet, #alergy{
+        font-size: 73%;
+    }
+    #diet-type label {
+    font-size: 45%;
+    }
+    .fieldset-two, .fieldset-three{
+        padding-top: 1%;
+    }
+    #alergies label {
+    font-size: 140%;
+    }
+}
+@media screen and (max-width:400px) and (max-height:855px){
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        height: 35vh;
     }
 }
