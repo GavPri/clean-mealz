@@ -1,108 +1,99 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome GavPri,
+Clean Mealz is a website which users can find recipes for breakfast lunh or dinner.Clean Mealz targets cooks of all levels, be that a beginner or pro, Clean Mealz aims to have recipes accustometo all. Clen Mealz aims to help the cooks by providing step by step cooking guides, ingredients lists and nutrition information.
+![Screen shot of clean mealz websiter](assets/images/responsive-display.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## The Navigation Bar 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+* The navigation bar allows users to quickly move to the recips page, newsletter sign up page as well as the contact section and testimonial section.
+* The navigation bar also allows user to navigate back to the home page by clicking on the logo.
+![clean mealz navigation bar](assets/images/clean-mealz-nav.png)
 ------
+## The Home Page Image 
+* The main image accompaided by the cover text on the home page lets the user know that the recipes easy to cook and hellthy.
+* The image greets the user with a slow zoom effect.
+![clean meals hero image](assets/images/clean-mealz-hero.png)
 
-## Release History
+## The Reasons For Following Clean Meals
+* The why follow us section conveys to the user the benfits of following Clean Mealz Recipes.
+    * The ingredients section explains how our meals are based off what is best for your health. But also acceisbily to certain ingredients. 
+    * The goodness in section describes how our meals strive to have a multitude of health benefits. Such as sources of protein, vitimans and nutrients. 
+    * The You Can Do It section shows thats the recipes are suitable to cooks of all levels.
+    
+![clean mealz Why Follow Us Section](assets/images/why-follow-us.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Favourites Section 
+* The favourites section shows the user some of the mmost popular recipes that are available on the website. 
+* Quick links directly to the recipe secions are provide for easy navigation for the user.
+![clean meals favourite section](assets/images/our-favourites.png) 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Testimonials section 
+* The testimonial section is a place to display fan reviews. This sections lets new users know that the recipes are easy to follow and delicious.
+![clean mealz testimonials](assets/images/testmonials.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## The Footer 
+* The Footer section provides very useful information to the user. 
+    * Links to clean mealz social media pages are provided to user to encourage engagement on other platforms.
+    * Contact information such as and email address and phone number are provided if users want to use those mediums for communication.
+    * A link is also provided to sign up for the newsletter on certain device sizes. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![clean mealz footer](assets/images/footer.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Sign Up Page 
+* The sign up page allows users to sign up for weely newsletter sent by clean mealz.
+    * The form requires first name, second name, diet type and alergy inputs to have the most personalised emails sent to each member. 
+    * The user is required to eneter an email and can also add a phone number as an optional input. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![clean meals sign up form](assets/images/newsletter-sign-up.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Recipes Page 
+# Recipe Navigation
+* The recipe navigation allows the users to easily navigate to breakfast, lunch or dinner recipes.
+![clean mealz recipe navigation](assets/images/recipe-nav.png)
+# Our goal
+* The Our Goal Section describes how clean mealz aims to help build cooking confidence for it's users.
+![clean mealz our goal section](assets/images/our-goal.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Recipe Section 
+* The recipe section aims to help the user through the process of making th emeal.
+    * The meal bio area describe to the reader why the recipe is great and why we love the meal.
+    * The meal guide are lets the user know everything that they need to knoe.
+        * The ingredients
+        * The steps in preparing the meal
+        * The nutritional information.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![clean mealz recipe section](assets/images/recipes-read.png)
+## Features Left To Implement
+* Dropdown menu for each link in recipe navigation with links to each meal in that category.
+* Navigation bar sticking to the header of the viewport for easier navigation through the site. 
+## Lighthouse Testing
+* The website was tested using lighthouse for seo, accessibilty, best practices and peroformance. 
+![light house results for clean meals](assets/images/Lighthouse-testing.png) 
+## Validator Testing 
+* HTML
+    * No errors were found when the html code was tested in the W3C Validator. (https://validator.w3.org/)
+* CSS 
+    * No errors were detected when testing my code in the Jigsaw validator (https://jigsaw.w3.org/css-validator/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab
+    * From the source section drop-down menu, select the Master Branch
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    * The live link can be found here 
+## Credits 
+# Content
+* The text for recipe sections was taken from Derval O'Rourke's book "The Fit Foodie"
+* The Our Goal Text was taken from SimplyRecipes.com (https://www.simplyrecipes.com/)
+* The fonts used were imported using Foogle Fonts (https://fonts.google.com/)
+* The incons used were imoprted from Font Awesome (https://fontawesome.com/)
+# Media 
+* The photos used wer found on Canva.com. (https://www.canva.com/)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Code 
+* Code used for Tel input on signup form was found on W3schools. (https://www.w3schools.com/tags/att_input_type_tel.asp)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
