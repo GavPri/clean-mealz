@@ -1350,7 +1350,7 @@ label{
 
     
 }
-@media screen and (max-width: 1300px){
+@media screen and (max-width:1300px){
     .fan-review p {
         font-size: 1rem;
     }
@@ -1400,8 +1400,8 @@ label{
     }
    
     .fan-picture, .fan-picture-container, .fan-picture-2, .fan-picture-3{
-        width: 100px;
-        height: 100px;
+        width: 12.5vh;
+        height: 12.5vh;
    }
 }
 @media screen and (max-width: 1050px){
@@ -1995,7 +1995,7 @@ h5{
         height: 40vh;
     }
     .fan-review p {
-    font-size: 0.6rem;
+    font-size: 0.58rem;
     }
     label, #f-name, #l-name, #email, #phone-number, #diet, #alergy{
         font-size:87%;
@@ -2077,4 +2077,17 @@ h5{
     #diet-type label {
         font-size: 40%;
     }
+}
+@media screen and (max-width: 395px){
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type {
+    height: 35vh;
+}
+}
+@media screen and (max-width: 376px) and (max-height: 690px){
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type {
+    height:45vh;
+}
+#introduction {
+    height: 30vh;
+}
 }
