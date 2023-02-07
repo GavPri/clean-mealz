@@ -34,7 +34,7 @@ p, li,td, th{
 }
 #logo{
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: center;
     line-height: 150px;
     text-transform: uppercase;
@@ -1091,6 +1091,9 @@ label{
     p, li,td,th{
         font-size: x-large;
     }
+    #logo h1{
+        font-size: 100%;
+    }
     #menu{
         width: 100%;
     }
@@ -1908,10 +1911,10 @@ h5{
 }
 @media screen and (max-width:950px) and (max-height:1400px){
     h5{
-        font-size: 150%;
+        font-size: 70%;
     }
     #alergies label{
-        font-size: 200%;
+        font-size: 175%;
     }
     #newsletter-submit{
         margin-top: 5%;
@@ -1932,7 +1935,7 @@ h5{
         font-size: 150%;
     }
     #menu li{
-        width: 20%;
+        width: auto;
     }
     #cover-text h2{
         font-size: 150%;
@@ -2010,5 +2013,68 @@ h5{
 @media screen and (max-width:400px) and (max-height:855px){
     #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
         height: 35vh;
+    }
+}
+@media screen and (max-width:335px) and (max-height:602px){
+    .reason-heading{
+        padding-top: 2%;
+    }
+    .reason-text-container p{
+        font-size: 60%;
+        padding-top: 6%;
+    }
+    h2{
+        font-size: 120%;
+    }
+    #meal-img-overnight-oats, .meal-type-very-berry, #meal-img-very-berry, .meal-type{
+        height: 52.5vh;
+    }
+    #alergies label {
+        font-size: 110%;
+    }
+    label, #f-name, #l-name, #email, #phone-number, #diet, #alergy {
+        font-size: 62%;
+    }
+    #menu{
+        top:25%;
+        right: 15%;
+    }
+    #newsletter {
+        width: auto;
+        right: 1%;
+        top: 90%;
+    }
+    .ingredients-list ul li {
+        line-height: 0.9rem;
+    }
+    #hero-image, #hero-outer{
+        height: 30vh;
+    }
+    #reasons {
+        height: 5vh;
+    }
+    .reason-text-container p {
+        padding-top: 4%;
+    }
+    #social-media-prompt{
+        display: none;
+    }
+    .reason-ing, .encouragement, .goodness{
+        height: 40vh;
+    }
+    #banner{
+        height: 30vh;
+    }
+    h5{
+        font-size: 80%;
+    }
+    .newsletter-submit {
+        margin-top: 1%;
+    }
+    #alergies label {
+        font-size: 80%;
+    }
+    #diet-type label {
+        font-size: 40%;
     }
 }
